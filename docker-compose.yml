@@ -10,6 +10,3 @@ services:
       - 9876:5000
     env_file:
       - ./.env.dev
-    deploy:
-        mode: replicated
-        replicas: 6
